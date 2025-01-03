@@ -1,0 +1,45 @@
+FUNCTION FC1 : VOID
+
+//timer için tesr dönüsüm
+
+VAR_INPUT
+    
+    iTimeET: TIME;
+    iIstenileSure : S5TIME;
+    
+END_VAR
+
+VAR
+    
+    vTemp : DINT;
+    vValue : DINT;
+    vValue2 : DINT;
+    vIstenilenTime : TIME;
+    vIstenilenDint : DINT;
+    
+END_VAR
+
+   
+VAR_OUTPUT
+    
+    oOUT : DINT;
+    
+END_VAR
+ 
+ BEGIN
+    
+    vIstenilenTime := S5TI_TIM(IN := iIstenileSure ); // TIME    
+    vIstenilenDint := TIME_TO_DINT(vIstenilenTime) / DINT#1000;
+    
+    vValue2 := TIME_TO_DINT(iTimeET);
+    vValue := vValue2 / DINT#1000;
+    
+    oOUT := vIstenilenDint - vValue;
+    
+    
+ END_FUNCTION
+ 
+ 
+ 
+ 
+

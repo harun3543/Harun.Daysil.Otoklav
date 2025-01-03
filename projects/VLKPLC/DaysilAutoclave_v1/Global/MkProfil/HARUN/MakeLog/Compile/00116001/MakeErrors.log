@@ -1,0 +1,13 @@
+1: FB50  [LAD]
+2: FB47  [LAD]
+3: FB48  [LAD]
+4: FB1  [LAD]
+5: FB2  [LAD]
+6: FB20  [LAD]
+7: FB49  [LAD]
+8: FB94  [STL]
+9: FB95  [STL]
+10: OB100  [LAD]
+11: FB99  [LAD]
+Warning: The S7 program contains the following blocks that are referenced but not available:
+SFC64

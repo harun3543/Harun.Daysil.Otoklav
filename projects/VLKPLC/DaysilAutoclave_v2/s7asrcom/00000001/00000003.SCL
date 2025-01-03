@@ -1,0 +1,34 @@
+FUNCTION FC10 : VOID
+
+VAR_INPUT
+    Saat : INT;
+    Dakika : INT;
+END_VAR
+
+VAR
+    tSaat_Dint : DINT;
+    tHesaplananSaat : DINT;
+
+    tDakika_Dint : DINT;
+    tHesaplananDakika : DINT;
+    tHesaplnananSure_Dint : DINT;
+    tHesaplananSure_Time : TIME;
+END_VAR
+
+VAR_OUTPUT
+    HesaplananSure_S5TIME : S5TIME;
+END_VAR
+
+tSaat_Dint := INT_TO_DINT(Saat);
+tHesaplananSaat := tSaat_Dint * 3600000;
+
+tDakika_Dint := INT_TO_DINT(Dakika);
+tHesaplananDakika := tDakika_Dint * 60000;
+
+tHesaplnananSure_Dint := tHesaplananSaat + tHesaplananDakika;
+tHesaplananSure_Time := DINT_TO_TIME(tHesaplnananSure_Dint);
+
+HesaplananSure_S5TIME := TIME_TO_S5TIME(tHesaplananSure_Time);
+
+
+END_FUNCTION
