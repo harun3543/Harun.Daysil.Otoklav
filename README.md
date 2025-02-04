@@ -15,3 +15,9 @@ Daysil buhar jeneratörü ve Otoklav PLC/HMI projesi
 ##### otoklav tarafında
 1. oransal vana ilk açılış degeri ve kademe artışı ekrana basıldı
 2. Basınç ve çalışma süresi ekrana yansıtıldı.
+
+### v4 güncellemesi
+
+##### otoklav 
+1. başlangıçta su atımı için boşaltım vanası belirli sürelerle belirlenen tekrarda açılıp kapanacak
+2. datablock data isimlendirmeleri tekrar yazıldı.
