@@ -21,3 +21,4 @@ Daysil buhar jeneratörü ve Otoklav PLC/HMI projesi
 ##### otoklav 
 1. başlangıçta su atımı için boşaltım vanası belirli sürelerle belirlenen tekrarda açılıp kapanacak
 2. datablock data isimlendirmeleri tekrar yazıldı.
+3. fb20 instance datablock isimleri düzenlendi.
