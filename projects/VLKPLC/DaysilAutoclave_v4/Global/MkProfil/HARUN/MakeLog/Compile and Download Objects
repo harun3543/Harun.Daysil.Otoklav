@@ -1,18 +1,25 @@
 
-Date: 01/11/2025  time: 12:54:19 PM
+Date: 02/04/2025  time: 08:47:21 PM
 Compile:
-Daysil_Autoclav_v3\SLIO_CPU_015\Hardware
+Daysil_Autoclav_v4\SLIO_CPU_015\Hardware
 -> Object was compiled without errors
 
 
-Date: 01/11/2025  time: 12:54:22 PM
+Date: 02/04/2025  time: 08:47:21 PM
 Compile:
-Daysil_Autoclav_v3\SLIO_CPU_015\CPU 315-2 PN/DP\S7 Program(1)\Blocks
+Daysil_Autoclav_v4\SLIO_CPU_015\CPU 315-2 PN/DP\S7 Program(1)\Blocks
+-> Error occurred compiling the object
+
+1: FC1  [SCL]
+Warning: The source, from which the block was created cannot, be found.
+2: FB99  [LAD]
+Warning: The creation application has opened a block or a source file, or is currently busy.
+Error: The S7 program still contains the following blocks with time stamp conflicts after compilation:
+FB98, FB99
 
 
-
-Date: 01/11/2025  time: 12:55:06 PM
+Date: 02/04/2025  time: 08:47:24 PM
 Compile:
-Daysil_Autoclav_v3\SLIO_CPU_015\CPU 315-2 PN/DP\Connections
+Daysil_Autoclav_v4\SLIO_CPU_015\CPU 315-2 PN/DP\Connections
 -> Object was compiled without errors
 

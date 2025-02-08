@@ -1,0 +1,29 @@
+FUNCTION FC11 : VOID
+
+VAR_INPUT
+    Saniye : INT;
+END_VAR
+
+VAR
+
+    tSaniye_Dint : DINT;
+    tHesaplananSaniye : DINT;
+
+    tHesaplnananSure_Dint : DINT;
+    tHesaplananSure_Time: time;
+END_VAR
+
+VAR_OUTPUT
+    HesaplananSure_S5TIME : S5TIME;
+END_VAR
+
+tSaniye_Dint := INT_TO_DINT(Saniye);
+tHesaplananSaniye := tSaniye_Dint * 1000;
+
+tHesaplnananSure_Dint := tHesaplananSaniye;
+tHesaplananSure_Time := DINT_TO_TIME(tHesaplnananSure_Dint);
+
+HesaplananSure_S5TIME := TIME_TO_S5TIME(tHesaplananSure_Time);
+
+
+END_FUNCTION
