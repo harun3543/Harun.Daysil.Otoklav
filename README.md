@@ -22,3 +22,6 @@ Daysil buhar jeneratörü ve Otoklav PLC/HMI projesi
 1. başlangıçta su atımı için boşaltım vanası belirli sürelerle belirlenen tekrarda açılıp kapanacak
 2. datablock data isimlendirmeleri tekrar yazıldı.
 3. fb20 instance datablock isimleri düzenlendi.
+
+**08.03.2025** 
+bosaltim vanasi, bosaltim sırasında min basınç ayari yapıldı (0.5 bardan 0.3 bara indirildi)
